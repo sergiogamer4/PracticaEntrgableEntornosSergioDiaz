@@ -43,11 +43,12 @@ public class Main {
                     double num8 = elegirNum();
                     System.out.println(Calculadora.dividir(num7, num8));
                     break;
+                case "0":
+                    System.out.println("Saliendo");
+                    break;
                 default:
                     System.out.println("Opcion no valida");
                     break;
-                case "0":
-                    System.out.println("Saliendo");
             }
         } while (!"0".equals(opcion));
     }
