@@ -58,6 +58,23 @@ class CalculadoraTest {
 
     @Test
     void multiplicar() {
+        double valor1 = 6.000;
+        double valor2 = 14.000;
+        double expResult = 84.000;
+        double result = Calculadora.multiplicar(valor1, valor2);
+        assertEquals(expResult, result, 0.0001);
+
+        double valor3 = -247.345;
+        double valor4 = -1.290;
+        double expResult2 = 319.075;
+        double result2 = Calculadora.multiplicar(valor3, valor4);
+        assertEquals(expResult2, result2, 0.0001);
+
+        double valor5 = -0.230;
+        double valor6 = 50.000;
+        double expResult3 = -11.5;
+        double result3 = Calculadora.multiplicar(valor5, valor6);
+        assertEquals(expResult3, result3, 0.0001);
     }
 
     @Test
