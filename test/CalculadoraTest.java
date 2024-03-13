@@ -79,5 +79,22 @@ class CalculadoraTest {
 
     @Test
     void dividir() {
+        double valor1 = 6.000;
+        double valor2 = 14.000;
+        double expResult = 0.428;
+        double result = Calculadora.dividir(valor1, valor2);
+        assertEquals(expResult, result, 0.01);
+
+        double valor3 = -247.345;
+        double valor4 = -1.290;
+        double expResult2 = 191.740;
+        double result2 = Calculadora.dividir(valor3, valor4);
+        assertEquals(expResult2, result2, 0.01);
+
+        double valor5 = 50.000;
+        double valor6 = -0.230;
+        double expResult3 = -217.391;
+        double result3 = Calculadora.dividir(valor5, valor6);
+        assertEquals(expResult3, result3, 0.01);
     }
 }
