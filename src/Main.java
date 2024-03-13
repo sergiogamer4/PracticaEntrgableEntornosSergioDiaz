@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     static Scanner sc = new Scanner(System.in);
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         String opcion;
         do {
             System.out.println("La calculadora tiene las siguientes opciones:");
