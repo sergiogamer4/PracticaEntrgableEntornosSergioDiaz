@@ -5,7 +5,10 @@ import java.util.Scanner;
 
 public class Main {
     static Scanner sc = new Scanner(System.in);
-
+    /**
+     * Metodo principal, se encarga de inicializar metodos de la clase Calculadora
+     * dependiendo de la opcion elegida por el usuario
+     * */
     public static void main(String[] args) {
         String opcion;
         do {
