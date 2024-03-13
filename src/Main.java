@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         String opcion;
         do {
             System.out.println("La calculadora tiene las siguientes opciones:");
@@ -19,14 +19,14 @@ public class Main {
             opcion = sc.nextLine().trim();
             switch (opcion) {
                 case "1":
-                    //Calculadora.sumar();
+                    Calculadora.sumar();
                 case "2":
-                    //Calculadora.restar();
+                    Calculadora.restar();
                 case "3":
-                    //Calculadora.multiplicar();
+                    Calculadora.multiplicar();
                     break;
                 case "4":
-                    //Calculadora.dividir();
+                    Calculadora.dividir();
                     break;
                 default:
                     System.out.println("Opcion no valida");
