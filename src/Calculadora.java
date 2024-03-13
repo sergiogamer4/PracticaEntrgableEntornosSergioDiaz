@@ -79,7 +79,7 @@ public class Calculadora {
                 System.out.println("El caracter introducido no es valido");
             }
         } while (num2 == 0);
-
+        System.out.println("La suma resulta en: " + (num1 * num2));
     }
 
     public static void dividir() {

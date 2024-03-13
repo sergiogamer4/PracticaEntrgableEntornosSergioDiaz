@@ -20,8 +20,10 @@ public class Main {
             switch (opcion) {
                 case "1":
                     Calculadora.sumar();
+                    break;
                 case "2":
                     Calculadora.restar();
+                    break;
                 case "3":
                     Calculadora.multiplicar();
                     break;
