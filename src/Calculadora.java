@@ -3,7 +3,9 @@ import java.util.Scanner;
 
 public class Calculadora {
     static Scanner sc = new Scanner(System.in);
-
+    /**
+     * Metodo que se encarga de sumar dos numeros que se introduzcan
+     * */
     public static void sumar() {
         double num1 = 0;
         do {
@@ -29,7 +31,9 @@ public class Calculadora {
         } while (num2 == 0);
         System.out.println("La suma resulta en: " + (num1 + num2));
     }
-
+    /**
+     * Metodo que se encarga de restar dos numeros que se introduzcan
+     * */
     public static void restar() {
         double num1 = 0;
         do {
@@ -55,7 +59,9 @@ public class Calculadora {
         } while (num2 == 0);
         System.out.println("La resta resulta en: " + (num1 - num2));
     }
-
+    /**
+     * Metodo que se encarga de multiplicar dos numeros que se introduzcan
+     * */
     public static void multiplicar() {
         double num1 = 0;
         do {
@@ -81,7 +87,9 @@ public class Calculadora {
         } while (num2 == 0);
         System.out.println("La suma resulta en: " + (num1 * num2));
     }
-
+    /**
+     * Metodo que se encarga de dividir dos numeros que se introduzcan
+     * */
     public static void dividir() {
         double num1 = 0;
         do {
